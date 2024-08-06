@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*styling navbar*/
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #43778d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #591f27;
+}
+.navlogo{
+    height: 45px;
+    width: 60px;
+    background-color: white;
+    background-image: url(logo.png);
+    background-image: url(images/logo.png);
+    background-size: cover;
+}
+
+.searchhere{
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+}
+.searchbar{
+    height: 35px;
+    width: 170px;
+    background-color: white;
+    border: 2px solid white;
+    outline-color: transparent;
+}
+.searchicon{
+    align-content: center;
+}
+.location{
+    height: 45px;
+    width: 65px;
+    background-color: transparent;
+}
+.location i{
+    margin-left: 20px;
+}
+.language{
+    height: 45px;
+    width: 65px;
+    background-color: transparent;
+}
+.language i{
+    margin-left: 20px;
+}
+.profile{
+    height: 45px;
+    width: 65px;
+    background-color: transparent;
+}
+.profile i{
+    margin-left: 14px;
+}
+/*styling panel*/
+.panel{
+    height: 60px;
+    width: 100%;
+    background-color: #43778d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #591f27;
+    margin-top: 20px;
+}
+.all{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.all i{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.electronics{
+    height: 45px;
+    width: 80px;
+    background-color: white;
+    align-content: center;
+}
+.electronics p{
+    margin-left: 3px;
+}
+.homedecor{
+    height: 45px;
+    width: 90px;
+    background-color: white;
+    align-content: center;
+}
+.homedecor p{
+    margin-left: 3px;
+}
+.beauty{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.beauty p{
+    margin-left:9px;
+}
+.men{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.men p{
+    margin-left: 16px;
+}
+.women{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.women p{
+    margin-left: 6px;
+}
+.kids{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.kids p{
+    margin-left: 16px;
+}
+/*styling filters section*/
+.filters{
+    height: 60px;
+    width: 100%;
+    background-color:#591f27;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #591f27;
+    margin-top: 20px;
+}
+.filters1{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.filters1 p{
+    margin-left: 7px;
+}
+.sortby{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.sortby p{
+    margin-left: 7px;
+}
+.category{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.category p{
+    margin-left: 3px;
+}
+.fabric{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.fabric p{
+    margin-left: 11px;
+}
+.size{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.size p{
+    margin-left: 17px;
+}
+.price{
+    height: 45px;
+    width: 65px;
+    background-color: white;
+    align-content: center;
+}
+.price p{
+    margin-left: 15px;
+}
+/*styling shop section*/
+/*styling electronics1*/
+.electronics1{
+      height: 350px;
+      width: 100%;
+      background-color: #591f27;
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.electronicsname1{
+    font-size: 25px;
+    font-weight: 800;
+    color:#591f27;
+    padding-top: 20px;
+}
+.laptoppic{
+    height: 300px;
+    width: 180px;
+    background-image: url(laptop.png);
+    background-image: url(images/laptop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.camerapic{
+    height: 300px;
+    width: 180px;
+    background-image: url(camera.png);
+    background-image: url(images/camera.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.headphonepic{
+    height: 300px;
+    width: 180px;
+    background-image: url(headphone.png);
+    background-image: url(images/headphone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.laptopname{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+.cameraname{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+.headphonename{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+/*styling beauty1*/
+.beauty1{
+    height: 350px;
+    width: 100%;
+    background-color: #591f27;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.beautyname1{
+    font-size: 25px;
+    font-weight: 800;
+    color:#591f27;
+    padding-top: 20px;
+}
+.lipstickpic{
+    height: 300px;
+    width: 180px;
+    background-image: url(lipstick.png);
+    background-image: url(images/lipstick.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.facewashpic{
+    height: 300px;
+    width: 180px;
+    background-image: url(facewash.png);
+    background-image: url(images/facewash.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.perfumepic{
+    height: 300px;
+    width: 180px;
+    background-image: url(perfume.png);
+    background-image: url(images/perfume.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.lipstickname{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+.facewashname{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+.perfumename{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+/*styling footer*/
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #591f27;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customerservice{
+    height: 100px;
+    width: 180px;
+    margin-top: 8px;
+    background-color: white;
+    font-weight: 700;
+}
+.company{
+    height: 100px;
+    width: 180px;
+    margin-top: 8px;
+    background-color: white;
+    font-weight: 700;
+}
+.social{
+    height: 100px;
+    width: 180px;
+    margin-top: 8px;
+    background-color: white;
+    font-weight: 700;
+}
+.copyright{
+    height: 50px;
+    width: 100%;
+    background-color: #591f27;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.copyright i{
+    margin-right: 20px;
+}
+.year{
+    margin-right: 10px;
+}
+.name{
+    margin-bottom: 3px;
+}
