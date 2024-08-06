@@ -5,7 +5,6 @@
 /*styling navbar*/
 .navbar{
     height: 60px;
-    width: 100%;
     background-color: #43778d;
     display: flex;
     align-items: center;
@@ -64,7 +63,6 @@
 /*styling panel*/
 .panel{
     height: 60px;
-    width: 100%;
     background-color: #43778d;
     display: flex;
     align-items: center;
@@ -140,7 +138,6 @@
 /*styling filters section*/
 .filters{
     height: 60px;
-    width: 100%;
     background-color:#591f27;
     display: flex;
     align-items: center;
@@ -206,7 +203,6 @@
 /*styling electronics1*/
 .electronics1{
       height: 350px;
-      width: 100%;
       background-color: #591f27;
       margin-top: 30px;
       display: flex;
@@ -267,7 +263,6 @@
 /*styling beauty1*/
 .beauty1{
     height: 350px;
-    width: 100%;
     background-color: #591f27;
     margin-top: 40px;
     display: flex;
@@ -328,7 +323,6 @@
 /*styling footer*/
 .footer{
     height: 150px;
-    width: 100%;
     background-color: #591f27;
     margin-top: 30px;
     display: flex;
@@ -358,7 +352,6 @@
 }
 .copyright{
     height: 50px;
-    width: 100%;
     background-color: #591f27;
     margin-top: 30px;
     display: flex;
